@@ -5,6 +5,10 @@
   --button-color: #f76b8a;
 }
 
+body {
+  max-width: 100%;
+}
+
 .hero {
   text-align: center;
   background: var(--background-color);
