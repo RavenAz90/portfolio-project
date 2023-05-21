@@ -48,3 +48,17 @@ body {
   color: var(--background-color);
   background-color: var(--button-color);
 }
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 55px;
+  }
+
+  .hero h2 {
+    font-size: 23px;
+  }
+
+  .hero p {
+    font-size: 30px;
+  }
+}
