@@ -60,13 +60,35 @@ img {
   line-height: 27px;
   padding: 12px 20px;
   transition: all 150ms ease-in-out;
+  text-align: center;
 }
 
 .btn-branding:hover {
   color: var(--background-color);
   background-color: var(--button-color);
 }
+.about-hero {
+  padding: 100px 20px;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+.about-hero h1 {
+  font-size: 64px;
+  font-family: poppins;
+  font-weight: bold;
+}
 
+.about-hero h2 {
+  font-size: 25px;
+  font-family: poppins;
+}
+.about-description {
+  margin: 30px;
+}
+
+.about-image {
+  margin: 30px;
+}
 @media (max-width: 976px) {
   h2,
   p {
@@ -87,6 +109,9 @@ img {
   .hero p {
     font-size: 30px;
   }
+  .about-hero h1 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -96,5 +121,21 @@ img {
   .project-description {
     margin-top: 35px;
     padding: 0 10px;
+  }
+  .about-description {
+    text-align: center;
+  }
+
+  .about-hero h1 {
+    font-size: 45px;
+  }
+
+  .about-image {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btn {
+    display: block;
+    margin: 0;
   }
 }
