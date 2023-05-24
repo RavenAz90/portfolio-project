@@ -89,6 +89,18 @@ img {
 .about-image {
   margin: 30px;
 }
+.content-container {
+  color: var(--primary-color);
+  padding: 15px;
+}
+.content-container h2 {
+  font-size: 35px;
+}
+
+.content-container h3 {
+  font-size: 15px;
+  font-family: ubuntu;
+}
 @media (max-width: 976px) {
   h2,
   p {
