@@ -29,9 +29,38 @@
     <title>Antea Ruggero front-end developer</title>
   </head>
   <body>
-    <a href="/about.html">About me</a>
-    <a href="/work.html">Work</a>
-    <a href="/contact.html">Contacts</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+      <div class="container-fluid navigation">
+        <a class="navbar-brand nav-name mt-2" href="#">Antea Ruggero</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mt-2">
+            <li class="nav-item">
+              <a class="nav-link selected" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html">My work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>Hello, I'm</p>
       <h1 class="mb-4">Antea Ruggero</h1>
