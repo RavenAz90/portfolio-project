@@ -26,12 +26,18 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/style.css" />
+    <meta
+      name="description"
+      content="Antea Ruggero is a front-end developer based in Italy, skilled in HTML, CSS, JavaScript and responsive websites."
+    />
     <title>Antea Ruggero front-end developer</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
       <div class="container-fluid navigation">
-        <a class="navbar-brand nav-name mt-2" href="#">Antea Ruggero</a>
+        <a class="navbar-brand nav-name mt-2 inactive" href="#"
+          >Antea Ruggero</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -43,19 +49,26 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-end"
+          id="navbarNav"
+        >
           <ul class="navbar-nav mt-2">
             <li class="nav-item">
               <a class="nav-link selected" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="/about.html" title="About me"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">My work</a>
+              <a class="nav-link" href="/work.html" title="My work">My work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contacts</a>
+              <a class="nav-link" href="/contact.html" title="Contact me"
+                >Contacts</a
+              >
             </li>
           </ul>
         </div>
@@ -65,7 +78,7 @@
       <p>Hello, I'm</p>
       <h1 class="mb-4">Antea Ruggero</h1>
       <h2 class="mt-3 mb-5">Front-end developer based in Italy</h2>
-      <a href="#" class="btn btn-branding shadow">Contact me</a>
+      <a href="/contact.html" class="btn btn-branding shadow">Contact me</a>
     </div>
     <p class="text-center mt-5 p-2 middle-paragraph text-muted">
       These are my best projects at the moment. It's not much but for someone
@@ -95,7 +108,7 @@
               completely functional with JavaScript, but this is my first baby
               and I love it.
             </p>
-            <a href="#" class="btn btn-branding shadow">D&D website</a>
+            <a href="/work.html" class="btn btn-branding shadow">Find more</a>
           </div>
         </div>
       </div>
@@ -112,7 +125,7 @@
               the weather will be tomorrow, here's my humble offer for you. Not
               bad for a first try, right?
             </p>
-            <a href="#" class="btn btn-branding shadow">Launch app</a>
+            <a href="/work.html" class="btn btn-branding shadow">Find more</a>
           </div>
         </div>
         <div class="col-sm">
@@ -144,6 +157,15 @@
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
         </div>
+        <p class="text-center mt-3 text-muted">
+          This website was coded by Antea Ruggero and is
+          <a
+            href="https://github.com/RavenAz90/portfolio-project"
+            target="_blank"
+            title="See the project"
+            >Open-source</a
+          >
+        </p>
       </footer>
     </div>
   </body>

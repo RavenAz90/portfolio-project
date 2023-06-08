@@ -135,6 +135,9 @@ nav .selected {
   );
   box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
 }
+.inactive:hover {
+  cursor: default;
+}
 
 footer {
   margin: 60px 0;

@@ -26,12 +26,18 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/style.css" />
+    <meta
+      name="description"
+      content="Here you can contact Antea Ruggero. Check her LinkedIn account or take a look at her GitHub space."
+    />
     <title>Contact me</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
       <div class="container-fluid navigation">
-        <a class="navbar-brand nav-name mt-2" href="#">Antea Ruggero</a>
+        <a class="navbar-brand nav-name mt-2 inactive" href="#"
+          >Antea Ruggero</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -43,18 +49,27 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-end"
+          id="navbarNav"
+        >
           <ul class="navbar-nav mt-2">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/index.html"
+                title="Home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="/about.html" title="About me"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">My work</a>
+              <a class="nav-link" href="/work.html" title="My work">My work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link selected" href="#">Contacts</a>
@@ -88,6 +103,33 @@
           >
         </p>
       </div>
+      <footer>
+        <div class="d-flex justify-content-center mb-3">
+          <a href="mailto:antea.ruggero@hotmail.com" class="email-link"
+            >antea.ruggero@hotmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.instagram.com/antea.ruggero/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/RavenAz90" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/antea-ruggero/" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <p class="text-center mt-3 text-muted">
+          This website was coded by Antea Ruggero and is
+          <a
+            href="https://github.com/RavenAz90/portfolio-project"
+            target="_blank"
+            title="See the project"
+            >Open-source</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
